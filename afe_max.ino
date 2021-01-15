@@ -4,7 +4,7 @@
 #include "heartRate.h"
 
 MAX30105 particleSensor;
-AFE A;
+AFE A; //sensor
 
 const byte RATE_SIZE = 4; //Increase this for more averaging. 4 is good.
 byte rates[RATE_SIZE]; //Array of heart rates
